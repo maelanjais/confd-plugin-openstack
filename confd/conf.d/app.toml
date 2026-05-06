@@ -1,0 +1,8 @@
+[template]
+src = "app.conf.tmpl"
+dest = "/etc/app.conf"
+keys = [
+    "/vms",
+]
+# Pour la démo, on simule le rechargement d'une app
+reload_cmd = "echo 'App configuration reloaded!'"

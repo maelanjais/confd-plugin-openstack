@@ -1,0 +1,12 @@
+# Binaries
+bin/
+# Build artefacts
+*.out
+*.exe
+# Go modules cache
+/go/pkg/mod/
+# IDE / editor artefacts
+*.swp
+*~
+.idea/
+.vscode/

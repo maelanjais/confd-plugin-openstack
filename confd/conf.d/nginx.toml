@@ -1,0 +1,6 @@
+[template]
+src        = "nginx.conf.tmpl"
+dest       = "/etc/nginx/conf.d/upstream.conf"
+keys       = ["/vms"]
+check_cmd  = "nginx -t -c /etc/nginx/nginx.conf"
+reload_cmd = "nginx -s reload"
